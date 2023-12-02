@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.font {
+    font-family: 'Kanit', sans-serif;
+}
+
+.projectCards {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projectTitle {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    margin-top: 50px;
+    filter: drop-shadow(2px 2px 0px rgba(0, 0, 0, 0.5));
+    font-weight: 700;
+}
+
+.projectCard {
+    width: calc(50vw - 30px);
+    display: flex;
+    gap: 15px;
+    background-color: rgba(0, 50, 100, 0.25);
+    backdrop-filter: blur(2px);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.projectCard img {
+    height: 200px;
+    border-radius: 5px;
+}
+
+.projectCardText {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 1.25em;
+    line-height: 1;
+}
+
+.milestone {
+    margin-top: 50px;
+    width: calc(50vw - 30px);
+    background-color: rgba(0, 50, 100, 0.25);
+    backdrop-filter: blur(2px);
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.milestone span {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    filter: drop-shadow(2px 2px 0px rgba(0, 0, 0, 0.5));
+    font-weight: 700;
+}
